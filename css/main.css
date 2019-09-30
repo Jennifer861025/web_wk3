@@ -1,0 +1,133 @@
+body{
+    width: 1260px;
+    height: 880px;
+    background-color: #EDF2C5;
+    padding: 0;
+    margin: 0;
+    font-family: Arial black;
+}
+.wrap{
+    margin: 36px 160px 35px 160px;
+}
+header{
+    display: flex;
+}
+header p{
+    font-size: 44px;
+    margin: 0;
+    margin-right: 464px;
+}
+header .btn{
+    display: flex;
+    margin-top: 25px;
+}
+.btn_facebook{
+    margin-right: 10px;
+}
+.btn_instagram{
+    margin-right: 10px;
+}
+.btn-line{
+    margin-right: 10px;
+    width: 1px;
+    height: 25px;
+    border-left: 1px solid #778A50;
+}
+.btn-box{
+    display: flex;
+    border: 1px solid #778A50;
+    font-family: Arial;
+    font-weight: bold;  
+    font-size: 14px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_login{
+    width: 60px;
+    height: 25px;
+    margin-right: 10px;
+}
+.btn_join{
+    width: 50px;
+    height: 25px;
+}
+.nav{
+    position: relative;
+    display: flex;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.nav-list{
+    padding:0 0 0 30px;
+    margin: 10px 0;
+}
+.nav-list-item{
+    display: inline-block; 
+}
+.nav-list-item-link{
+    font-size: 16px;
+    color: #EDF2C5;
+    text-decoration: none;
+    margin-right: 60px;
+    display: flex;
+}
+.main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.title{
+    width: 445px;
+    height: 45px;
+    background-color: #778a50;
+    border-radius: 3px;
+    color: #EDF2C5;
+    padding: 12px 0 12px 30px;
+    box-sizing: border-box;
+}
+.img_vegetable{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.contact{
+    width: 445px;
+    height: 140px;
+    background-color: #f7fbda;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: Arial;
+    color: #7d7d7d;
+}
+.contact-top{
+    padding: 16px 15px;
+    line-height: 1.33;
+}
+.contact-line{
+    width: 414px;
+    height: 1px;
+    border-top: 1px solid #7d7d7d;
+    margin-left: 15px;
+}
+.contact-bottom{
+    margin-top: 8px;
+    margin-left: 15px;
+    line-height: 1.85;
+}
+footer{
+    position: relative;
+    width: 1264px;
+    height: 60px;
+    background-color: #778A50;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    color: #EDF2C5;
+}
+footer p{
+    padding: 24px 479px 25px 479px;
+}
